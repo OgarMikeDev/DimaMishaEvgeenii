@@ -50,7 +50,7 @@ public class Main {
                 long number = new Scanner(System.in).nextLong();
                 Student.removeStudent(number);
             } else if (command.equals("GetCountStudents")) {
-                Student.getCountStudents();
+                System.out.println(Student.getCountStudents());
             }
         }
     }
