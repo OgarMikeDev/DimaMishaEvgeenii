@@ -70,23 +70,19 @@ public class Student implements Comparable<Student> {
     }
 
     public static void printInformationAboutStudents() {
-        //Evgeniy
-    }
-
-    public static void removeStudent(long phoneNumber) {
-        Iterator<Student> studentIterator = setStudents.iterator();
-
-        while (studentIterator.hasNext()){
-            Student student = studentIterator.next();
-            if(student.getPhoneNumber() == phoneNumber){
-                studentIterator.remove();
-            }
+        //Commit example
+        for (Student currentStudent : setStudents) {
+            System.out.println(currentStudent);
         }
     }
 
+    public static void removeStudent(long phoneNumber) {
+        //Dima
+    }
+
     public static int getCountStudents() {
-        //Misha
-        return 0;
+        //Misha >
+        return setStudents.size();
     }
 
     @Override
