@@ -74,18 +74,7 @@ public class Student implements Comparable<Student> {
     }
 
     public static void removeStudent(long phoneNumber) {
-<<<<<<< HEAD
         //Dima
-=======
-        Iterator<Student> studentIterator = setStudents.iterator();
-
-        while (studentIterator.hasNext()){
-            Student student = studentIterator.next();
-            if(student.getPhoneNumber() == phoneNumber){
-                studentIterator.remove();
-            }
-        }
->>>>>>> origin/main
     }
 
     public static int getCountStudents() {
@@ -97,11 +86,7 @@ public class Student implements Comparable<Student> {
     public String toString() {
         return "Name \"" + getName() + "\"," +
                 "\nAge \"" + getAge() + "\"," +
-<<<<<<< HEAD
                 "\nEmail \"" + getEmail() + "\"," +
-=======
-                "\nEmAil \"" + getEmail() + "\"," +
->>>>>>> origin/main
                 "\nPhone number " + getPhoneNumber() + ".\n";
     }
 }
