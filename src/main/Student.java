@@ -81,8 +81,8 @@ public class Student implements Comparable<Student> {
     }
 
     public static int getCountStudents() {
-        //Misha
-        return 0;
+        //Misha >
+        return setStudents.size();
     }
 
     @Override
