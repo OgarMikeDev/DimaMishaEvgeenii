@@ -70,6 +70,7 @@ public class Student implements Comparable<Student> {
     }
 
     public static void printInformationAboutStudents() {
+        //Commit example
         for (Student currentStudent : setStudents) {
             System.out.println(currentStudent);
         }
